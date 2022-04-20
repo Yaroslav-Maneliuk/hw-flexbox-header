@@ -47,6 +47,9 @@ ul{
   border: 1px solid white;
   border-radius: 2px;
 }
+.main{
+  flex-grow: 1;
+}
 .nav-list-item{
   display: inline-block;
   font-family: sans-serif;
@@ -58,7 +61,7 @@ ul{
 
 .footer{
   padding: 1em;
-  margin-top: auto;
+  /* margin-top: auto; */
   background-color:#262626;
   color: white;
   text-align: center;
